@@ -9,13 +9,14 @@ from setuptools import setup, find_packages
 
 setup(
     name="CEAD",
-    version="1.1",
+    version="v0.1",
     url="https://github.com/g-lyc/CEAD",
     description=__doc__.strip('\n'),
     license="liyc",
     author="liyc",
     author_email="liyichen2015@gmail.com",
     packages=find_packages(),
+    package_data={"": ["*.sh"]},
     install_requires=['docopt', 'conda-pack'],
     entry_points={
         "console_scripts": ["CEAD = CEAD:main"]

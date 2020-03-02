@@ -64,7 +64,7 @@ class CEAD(object):
 
 
 def main():
-    args = docopt(__doc__, version='version==1.1')
+    args = docopt(__doc__, version='version==v0.1')
 
     kwargs = {
         'env_file': args['<env_file>'],
