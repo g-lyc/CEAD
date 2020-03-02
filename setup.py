@@ -10,7 +10,7 @@ from setuptools import setup, find_packages
 setup(
     name="CEAD",
     version="1.0",
-    url="https://github.com/godLYC/CEAD",
+    url="https://github.com/g-lyc/CEAD",
     description=__doc__.strip('\n'),
     license="liyc",
     author="liyc",
