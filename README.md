@@ -18,4 +18,16 @@ Introduction
 ------------
 
 This repository contains the source code of a tools package existing conda environments or quickly deploy already packaged environments. The existing method is to export a conda environment to a yaml table, and reinstall it according to the yaml table when migrating. This tool will no longer make migrating the environment so cumbersome and needs to be declared is developed based on conda-pack.
-#
+
+Install
+-------
+
+1、install from pip
+
+`pip install CEAD`
+
+2、download sources code and setup
+
+`git clone https://github.com/g-lyc/CEAD.git`
+`cd CEAD`
+`python setup.py install`
