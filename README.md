@@ -13,6 +13,7 @@ Contents
 --------
 
 * [Introduction](#introduction)
+* [Install](#install)
 
 Introduction
 ------------
