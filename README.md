@@ -29,5 +29,7 @@ Install
 2、download sources code and setup
 
 `git clone https://github.com/g-lyc/CEAD.git`
+
 `cd CEAD`
+
 `python setup.py install`
